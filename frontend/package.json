@@ -1,0 +1,76 @@
+{
+  "name": "clamood-gym-frontend",
+  "version": "1.0.0",
+  "description": "Clamood Gym Management System Frontend",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-datepicker": "^4.19.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-dropzone": "^5.1.0",
+    "@types/react-modal": "^3.16.0",
+    "@types/react-table": "^7.7.0",
+    "@types/styled-components": "^5.1.0",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.0",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.0",
+    "react-hook-form": "^7.48.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.12.0",
+    "react-intersection-observer": "^9.5.0",
+    "react-modal": "^3.16.0",
+    "react-query": "^3.39.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-table": "^7.8.0",
+    "recharts": "^2.8.0",
+    "recoil": "^0.7.0",
+    "styled-components": "^6.1.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0"
+  },
+  "proxy": "http://localhost:8000"
+}
